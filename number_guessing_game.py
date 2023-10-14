@@ -3,7 +3,7 @@ import random
 def game():
     right = int(input('Выберете крайнее число: '))
 
-    def is_valid(n):                        # защита от дурака
+    def is_valid(n):
         if n < 1 or n > right:
             return False
         else:
